@@ -55,4 +55,23 @@ The <b><i>LOWER</b></i> function is used to convert all the characters in a text
 <b>Syntax: <b><i>=LOWER(text)</b></i></b><br>
 <b><i>text</b></i>: This is the text string you want to convert to lowercase.<br>
 ![image](https://github.com/nthnlgmz/MIDTERM_GROUP_9/assets/143614589/18fd5017-b4b2-4c86-8f08-305699f122e4)
+>
+># MATH FUNCTION
+>![image](https://github.com/DMBysnGnzls/MIDTERM_GROUP_9/assets/143982031/cccc2ea2-351d-4cac-a643-ed708d059c51)
+>
+>![image](https://github.com/DMBysnGnzls/MIDTERM_GROUP_9/assets/143982031/df731e94-13e6-40a1-9488-d35ab5fa9be3)
+>
+>![image](https://github.com/DMBysnGnzls/MIDTERM_GROUP_9/assets/143982031/80abd804-513e-466d-b40e-cd97ca77c0c4)
+>
+>
+># INFORMATION FUNCTION
+>![image](https://github.com/DMBysnGnzls/MIDTERM_GROUP_9/assets/143982031/ce6b08df-0581-497d-99cd-3200b7fe3ba2)
+>
+>![image](https://github.com/DMBysnGnzls/MIDTERM_GROUP_9/assets/143982031/0bfbadc5-86de-4999-87be-36aca31c025d)
+>
+>![image](https://github.com/DMBysnGnzls/MIDTERM_GROUP_9/assets/143982031/83c0a001-7eec-4074-b305-b087118b4651)
+
+
+
+
 
