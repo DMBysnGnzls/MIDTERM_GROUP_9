@@ -140,6 +140,80 @@ The <b><i>LOWER</b></i> function is used to convert all the characters in a text
 <b>Syntax: <b><i>=LOWER(text)</b></i></b><br>
 <b><i>text</b></i>: This is the text string you want to convert to lowercase.<br>
 ![image](https://github.com/nthnlgmz/MIDTERM_GROUP_9/assets/143614589/18fd5017-b4b2-4c86-8f08-305699f122e4)
+>
+># MATH FUNCTION
+<b>ABS Function</b><br>
+>-The ***ABS*** function in Excel is used to calculate the absolute value of a number. The absolute value of a number is its distance from zero on the number line, regardless of whether the number is positive or negative. In other words, it returns the positive value of a number.<br>
+-The syntax for the function is as follows: <br>
+```
+=ABS(number)
+```
+<br>
+
+<b>SIGN Function</b><br>
+>-The ***SIGN*** function in Excel is used to determine the sign of a number. It returns the following results:<br>
+>If the number is positive, it returns 1.<br>
+>If the number is negative, it returns -1.<br>
+>If the number is zero, it returns 0.<br>
+-The syntax for the function is as follows: <br>
+```
+=SIGN(number)
+```
+<br>
+
+<b>ABS Function</b><br>
+>-The ***SUM*** function in Excel is used to add up a range of numbers. It calculates the total sum of values in a selected range of cells.<br>
+-The syntax for the function is as follows: <br>
+```
+=SUM(number1, number2, ...)
+```
+<br>
+
+***Table Used***
+>![image](https://github.com/DMBysnGnzls/MIDTERM_GROUP_9/assets/143982031/cccc2ea2-351d-4cac-a643-ed708d059c51)
+<br>
+
+***ABS, SIGN, AND SUM Function in one table***
+>![image](https://github.com/DMBysnGnzls/MIDTERM_GROUP_9/assets/143982031/df731e94-13e6-40a1-9488-d35ab5fa9be3)
+
+># INFORMATION FUNCTION
+<b>TYPE Function</b><br>
+>-***TYPE*** function is used to determine the type of data in a cell. It returns a number that corresponds to the data type of the cell's content. <br>
+-The syntax for the function is as follows: <br>
+```
+=TYPE(value)
+```
+<br>
+
+<b>ISNUMBER Function</b><br>
+>-***ISNUMBER*** function is used to check if a value is a numeric (number) data type. It returns ***TRUE*** if the specified value is a number and ***FALSE*** if it is not. <br>
+-The syntax for the function is as follows: <br>
+```
+=ISNUMBER(value)
+```
+<br>
+
+<b>ISODD Function</b><br>
+>-***ISODD*** function in Excel is used to determine whether a given number is odd. It checks if a numeric value is an odd number and returns ***TRUE*** if the number is odd, and ***FALSE*** if it's not.<br>
+-The syntax for the function is as follows: <br>
+```
+=ISODD(number)
+```
+<br>
+
+<b>ISEVEN Function</b><br>
+>-***ISEVEN*** function in Excel is used to determine whether a given number is even. It checks if a numeric value is an even number and returns ***TRUE*** if the number is even, and ***FALSE*** if it's not.<br>
+-The syntax for the function is as follows: <br>
+```
+=ISEVEN(number)
+```
+<br>
+
+***Table Used***
+>![image](https://github.com/DMBysnGnzls/MIDTERM_GROUP_9/assets/143982031/ce6b08df-0581-497d-99cd-3200b7fe3ba2)
+
+***TYPE, ISNUMBER, ISODD, AND ISEVEN Function in one table***
+>![image](https://github.com/DMBysnGnzls/MIDTERM_GROUP_9/assets/143982031/0bfbadc5-86de-4999-87be-36aca31c025d)
 
 # DASHBOARD
 <b>VALUE PER DATE JOINED</b><br>
