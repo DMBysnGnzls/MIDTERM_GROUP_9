@@ -61,8 +61,8 @@ The <b><i>LOWER</b></i> function is used to convert all the characters in a text
 >
 >![image](https://github.com/DMBysnGnzls/MIDTERM_GROUP_9/assets/143982031/df731e94-13e6-40a1-9488-d35ab5fa9be3)
 >
->![image](https://github.com/DMBysnGnzls/MIDTERM_GROUP_9/assets/143982031/80abd804-513e-466d-b40e-cd97ca77c0c4)
->
+>![image](https://github.com/DMBysnGnzls/MIDTERM_GROUP_9/assets/143982031/962e4425-fc14-46c1-84ca-e19672150598)
+
 >
 ># INFORMATION FUNCTION
 >![image](https://github.com/DMBysnGnzls/MIDTERM_GROUP_9/assets/143982031/ce6b08df-0581-497d-99cd-3200b7fe3ba2)
