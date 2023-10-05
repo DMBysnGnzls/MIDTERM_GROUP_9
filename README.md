@@ -2,34 +2,88 @@
 
 # LOGICAL FUNCTION
 <b>ISBLANK Function</b><br>
->-The **ISBLANK** function in Excel is used to check whether a cell is empty or not. It returns **TRUE** if the cell is empty and **FALSE** if it contains any value or formula. 
-
->-The syntax for the function is as follows: 
-
+>-The **ISBLANK** function in Excel is used to check whether a cell is empty or not. It returns **TRUE** if the cell is empty and **FALSE** if it contains any value or formula. <br>
+-The syntax for the function is as follows: <br>
 ```
 =ISBLANK(value)
 ```
-
->-Here, `value` is the cell or range that you want to check for blank cells. The function returns a Boolean value of `TRUE` or `FALSE` based on whether the selected cell or range of cells is blank or not ³.
-
->-You can also use an empty string (`""`) with Excel's math operators `=` or `<>` to test for empty cells instead of the ISBLANK function. For example, to test if A1 is empty, you can use:
-
+>-Here, `value` is the cell or range that you want to check for blank cells. The function returns a Boolean value of `TRUE` or `FALSE` based on whether the selected cell or range of cells is blank or not ³.<br>
+-You can also use an empty string (`""`) with Excel's math operators `=` or `<>` to test for empty cells instead of the ISBLANK function. For example, to test if A1 is empty, you can use:<br>
 ```
 = A1 = ""
 ```
 
->-This syntax can be used interchangeably with ISBLANK.
-
+>-This syntax can be used interchangeably with ISBLANK.<br>
 ![image](https://github.com/ralphgrm/MIDTERM_GROUP_9/assets/134179620/8749b6c4-3c8b-4712-8b9e-f1d4fa894c37)
 
 
 <b>COUNTIF Function</b><br>
+>-The **COUNTIF** function in Excel is used to count the number of cells in a range that meet a certain criterion ¹²³. The syntax for the function is as follows: <br>
+```
+=COUNTIF(range, criteria)
+```
+
+>-Here, `range` is the range of cells that you want to count, and `criteria` is the condition that must be met for a cell to be counted. The `criteria` can be a number, expression, cell reference, or text string. <br>
+-For example, if you have a list of numbers in cells A1 through A10 and you want to count how many of them are greater than 5, you can use the following formula:<br>
+```
+=COUNTIF(A1:A10, ">5")
+```
+
+>-This formula will return the number of cells in the range A1:A10 that contain a value greater than 5.<br>
+-You can also use wildcards with the COUNTIF function. For example, if you have a list of names in cells A1 through A10 and you want to count how many of them start with the letter "J", you can use the following formula:<br>
+```
+=COUNTIF(A1:A10, "J*")
+```
+
+>-This formula will return the number of cells in the range A1:A10 that start with the letter "J".<br>
+![image](https://github.com/ralphgrm/MIDTERM_GROUP_9/assets/134179620/84d063d5-24fe-4117-84d1-cf66b612b1b4)
 
 
 # LOOKUP FUNCTION
 <b>LOOKUP Function</b><br>
+>-The **LOOKUP** function in Excel is used to look up information in a row or column. It is one of the lookup and reference functions in Excel ¹. There are two ways to use the LOOKUP function: vector form and array form. <br>
+-The vector form of the LOOKUP function searches only one row or column for a value and returns a value from the same position in a second one-row or one-column range. The syntax for the vector form of the LOOKUP function is as follows:<br>
+
+```
+=LOOKUP(lookup_value, lookup_vector, [result_vector])
+```
+
+>-Here, `lookup_value` is the value that you want to search for in the first vector. `lookup_vector` is the range that contains only one row or one column. The values in `lookup_vector` can be text, numbers, or logical values. The values in `lookup_vector` must be placed in ascending order; otherwise, LOOKUP might not return the correct value ². `result_vector` is an optional argument that specifies a range that contains only one row or column. The `result_vector` argument must be the same size as `lookup_vector`. If you omit this argument, the function returns the result from `lookup_vector`.<br>
+-The array form of the LOOKUP function searches multiple rows and columns for a value and returns a value from the same position in a second range of cells. The syntax for the array form of the LOOKUP function is as follows:<br>
+
+```
+=LOOKUP(lookup_value, lookup_array)
+```
+
+>-Here, `lookup_value` is the value that you want to search for in the array. `lookup_array` is an array of cells that contains the data you want to search. The data must be sorted in ascending order for this form of LOOKUP to work correctly.<br>
+![image](https://github.com/ralphgrm/MIDTERM_GROUP_9/assets/134179620/ba373c14-b4cd-4332-8c39-8be7f8e3f837)
+
 
 <b>MATCH Function</b><br>
+>-The **MATCH** function in Excel is used to locate the position of a lookup value in a row, column, or table and returns the relative position of an item in an array that matches a specified value in a specified order. The syntax for the function is as follows:
+
+```
+=MATCH(lookup_value, lookup_array, [match_type])
+```
+
+>-Here, `lookup_value` is the value that you want to match in `lookup_array`. `lookup_array` is the range of cells being searched. `match_type` is an optional argument that specifies how Excel matches `lookup_value` with values in `lookup_array`. The default value for this argument is 1.
+-The following table describes how the function finds values based on the setting of the `match_type` argument:
+
+| **Match Type** | **Behavior** |
+|----------------|--------------|
+| 1 or omitted    | MATCH finds the largest value that is less than or equal to `lookup_value`. The values in the `lookup_array` argument must be placed in ascending order. |
+| 0              | MATCH finds the first value that is exactly equal to `lookup_value`. The values in the `lookup_array` argument can be in any order. |
+| -1             | MATCH finds the smallest value that is greater than or equal to `lookup_value`. The values in the `lookup_array` argument must be placed in descending order. |
+
+>-The function returns the relative position of the matched value within `lookup_array`, not the value itself ². For example, if you have a list of numbers in cells A1 through A5 and you want to find the position of the number 3, you can use the following formula:
+
+```
+=MATCH(3,A1:A5,0)
+```
+
+>-This formula will return 3 because 3 is located at position 3 within the range A1:A5.
+![image](https://github.com/ralphgrm/MIDTERM_GROUP_9/assets/134179620/5707f70c-98da-4320-a9b4-b704a87ba046)
+
 
 # DATE AND TIME FUNCTION
 <b>TEXT Function</b><br>
@@ -87,3 +141,5 @@ The <b><i>LOWER</b></i> function is used to convert all the characters in a text
 <b><i>text</b></i>: This is the text string you want to convert to lowercase.<br>
 ![image](https://github.com/nthnlgmz/MIDTERM_GROUP_9/assets/143614589/18fd5017-b4b2-4c86-8f08-305699f122e4)
 
+# SOURCE/S
+Manral, M. (2022, August 14). Sports data analysis. Kaggle. https://www.kaggle.com/datasets/mukeshmanral/fifa-data-for-eda-and-stats?fbclid=IwAR3ca5efEtv0CqAx2sjJ7-vxuyuL_aWd5lnQO6okI9EwRBleq2H1AQJNPx0 
