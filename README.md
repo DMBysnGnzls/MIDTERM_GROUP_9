@@ -1,5 +1,15 @@
 # MIDTERM_GROUP_9
 
+# LOGICAL FUNCTION
+<b>ISBLANK Function</b><br>
+
+<b>COUNTIF Function</b><br>
+
+# LOOKUP FUNCTION
+<b>LOOKUP Function</b><br>
+
+<b>MATCH Function</b><br>
+
 # DATE AND TIME FUNCTION
 <b>TEXT Function</b><br>
 >-The <b>TEXT(date, format_text)</b> function in Excel is used to convert a date or time value into a text string with a specific format. It allows you to display a date or time in a custom format of your choice. The function takes two arguments:<br>
