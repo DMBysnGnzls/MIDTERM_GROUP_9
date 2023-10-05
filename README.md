@@ -2,8 +2,29 @@
 
 # LOGICAL FUNCTION
 <b>ISBLANK Function</b><br>
+>-The **ISBLANK** function in Excel is used to check whether a cell is empty or not. It returns **TRUE** if the cell is empty and **FALSE** if it contains any value or formula. 
+
+>-The syntax for the function is as follows: 
+
+```
+=ISBLANK(value)
+```
+
+>-Here, `value` is the cell or range that you want to check for blank cells. The function returns a Boolean value of `TRUE` or `FALSE` based on whether the selected cell or range of cells is blank or not ³.
+
+>-You can also use an empty string (`""`) with Excel's math operators `=` or `<>` to test for empty cells instead of the ISBLANK function. For example, to test if A1 is empty, you can use:
+
+```
+= A1 = ""
+```
+
+>-This syntax can be used interchangeably with ISBLANK.
+
+![image](https://github.com/ralphgrm/MIDTERM_GROUP_9/assets/134179620/8749b6c4-3c8b-4712-8b9e-f1d4fa894c37)
+
 
 <b>COUNTIF Function</b><br>
+
 
 # LOOKUP FUNCTION
 <b>LOOKUP Function</b><br>
