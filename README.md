@@ -215,5 +215,21 @@ The <b><i>LOWER</b></i> function is used to convert all the characters in a text
 ***TYPE, ISNUMBER, ISODD, AND ISEVEN Function in one table***
 >![image](https://github.com/DMBysnGnzls/MIDTERM_GROUP_9/assets/143982031/0bfbadc5-86de-4999-87be-36aca31c025d)
 
+# DASHBOARD
+<b>VALUE PER DATE JOINED</b><br>
+![image](https://github.com/ralphgrm/MIDTERM_GROUP_9/assets/134179620/001c808b-c9a9-4aac-89f0-9530371393e6)
+
+<b>VALUE PER POSITION</b><br>
+![image](https://github.com/ralphgrm/MIDTERM_GROUP_9/assets/134179620/038e1464-8767-4b15-b2f5-cc5f13b96530)
+
+<b>OVERALL PERFORMANCE PER AGE</b><br>
+>-Shown in this dashboard are the different overall performances of the players per age. Peaking on high scores of 94 on ages 33 and 31, whereas dipping down to the score of 89 on ages 27, 26, and 24.<br>
+-It is to be noted that not all the players with the same age as the ones peaking to its highest score, and dipping on the lowest score, are all the same. Some of them are in middle ground of the lowest and highest scores.<br>
+![image](https://github.com/ralphgrm/MIDTERM_GROUP_9/assets/134179620/7785f948-0514-452c-af03-0196e45071d7)
+
+<b>AGE PER POTENTIAL POINTS</b><br>
+![image](https://github.com/ralphgrm/MIDTERM_GROUP_9/assets/134179620/29b33ac5-06cb-4f04-b071-f48fd101d8a6)
+
+
 # SOURCE/S
 Manral, M. (2022, August 14). Sports data analysis. Kaggle. https://www.kaggle.com/datasets/mukeshmanral/fifa-data-for-eda-and-stats?fbclid=IwAR3ca5efEtv0CqAx2sjJ7-vxuyuL_aWd5lnQO6okI9EwRBleq2H1AQJNPx0 
