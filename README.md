@@ -216,10 +216,14 @@ The <b><i>LOWER</b></i> function is used to convert all the characters in a text
 >![image](https://github.com/DMBysnGnzls/MIDTERM_GROUP_9/assets/143982031/0bfbadc5-86de-4999-87be-36aca31c025d)
 
 # DASHBOARD
+These different dashboards below were all based on the FIFA 21 data set. FIFA 21 is the latest edition of the popular soccer video game series developed by EA Sports. It was released on October 9, 2020 for various platforms, including Microsoft Windows, Nintendo Switch, PlayStation 4, Xbox One, Stadia, PlayStation 5 and Xbox Series X/S.<br>
+
 <b>VALUE PER DATE JOINED</b><br>
+>-Shown in this dashboard are the different values of the date when a player joined. Where the oldest year was on 2004, while 2018 was the latest.<br>
 ![image](https://github.com/ralphgrm/MIDTERM_GROUP_9/assets/134179620/001c808b-c9a9-4aac-89f0-9530371393e6)
 
 <b>VALUE PER POSITION</b><br>
+>-Shown in this dashboard are the different values of the position of the players.<br>
 ![image](https://github.com/ralphgrm/MIDTERM_GROUP_9/assets/134179620/038e1464-8767-4b15-b2f5-cc5f13b96530)
 
 <b>OVERALL PERFORMANCE PER AGE</b><br>
@@ -227,8 +231,9 @@ The <b><i>LOWER</b></i> function is used to convert all the characters in a text
 -It is to be noted that not all the players with the same age as the ones peaking to its highest score, and dipping on the lowest score, are all the same. Some of them are in middle ground of the lowest and highest scores.<br>
 ![image](https://github.com/ralphgrm/MIDTERM_GROUP_9/assets/134179620/7785f948-0514-452c-af03-0196e45071d7)
 
-<b>AGE PER POTENTIAL POINTS</b><br>
-![image](https://github.com/ralphgrm/MIDTERM_GROUP_9/assets/134179620/29b33ac5-06cb-4f04-b071-f48fd101d8a6)
+<b>AGE PER POTENTIAL POTENTIAL POINTS</b><br>
+>-Shown in this dashboard are the different potential points that can be acquired by the players according to their respective age.br>
+![image](https://github.com/ralphgrm/MIDTERM_GROUP_9/assets/134179620/1a9b1438-7a16-47d4-a161-495c8d8b261f)
 
 
 # SOURCE/S
