@@ -235,6 +235,8 @@ These different dashboards below were all based on the FIFA 21 data set. FIFA 21
 >-Shown in this dashboard are the different potential points that can be acquired by the players according to their respective age.br>
 ![image](https://github.com/ralphgrm/MIDTERM_GROUP_9/assets/134179620/1a9b1438-7a16-47d4-a161-495c8d8b261f)
 
+![image](https://github.com/DMBysnGnzls/MIDTERM_GROUP_9/assets/143982031/c6844735-b751-4a6a-a688-adc55c7cc97b)
+
 
 # SOURCE/S
 Manral, M. (2022, August 14). Sports data analysis. Kaggle. https://www.kaggle.com/datasets/mukeshmanral/fifa-data-for-eda-and-stats?fbclid=IwAR3ca5efEtv0CqAx2sjJ7-vxuyuL_aWd5lnQO6okI9EwRBleq2H1AQJNPx0 
